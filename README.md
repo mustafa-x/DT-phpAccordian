@@ -6,7 +6,7 @@ This little project shows you how to load in JSON files with php and create a si
 The PHP directory contains all files for this project, The static directory is the accordian on its on with HTML.
 
 Working example can be found here: 
-http://designtoday.info/github/DT-phpAccodian/
+http://designtoday.info/github/DT-phpAccodian/examples/
 
 ##Contact
 - Twitter: http://twitter.com/mustafa_x
