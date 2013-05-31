@@ -1,0 +1,89 @@
+/* *
+* Reset
+*/
+html, body, body div, h1, p, header {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+/* Border-Box is a must for me. What this does is calculates the real width of an 
+object including the padding. */
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+article, section {display: block;}
+html {overflow-y: scroll;}
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+  
+a:hover, a:active {outline: none;}
+
+
+body, p {font: 11pt Arial, sans-serif;}
+
+a {color: #03f;}
+a:hover {color: #69f;}
+
+a:link {-webkit-tap-highlight-color: #fcd700;}
+
+/**
+* FAQ Styles 
+**/
+#wrapper { margin: 0 auto; position: relative; width: 625px;}
+
+/*
+* FAQ 
+*/
+#faq_q1 { }
+.faq_container { clear: both; margin-bottom: 15px;}
+.faq_question { }
+
+.faq_header { position: relative; }
+.faq_header h1 {  color: #FFFFFF; margin-bottom: 15px; padding: 5px 6px;
+-moz-user-select: none; 
+-khtml-user-select: none; 
+-webkit-user-select: none; 
+-o-user-select: none; 
+background: #000044; 
+cursor: pointer;  
+position: relative;
+}
+
+.faq_header h1.plus:after,
+.faq_header h1.minus:after {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #000044;
+  content: "+";
+  font-size: 1.5em;
+  display: block;
+  position: absolute;
+  height: 21px;
+  line-height: 1em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+  right: 4px;
+  top: 4px;
+}
+
+.faq_header h1.minus:after {
+  content: "-";
+}
+
+.faq_expand { height: 24px; position: absolute; right: 4px; top: 0px;  width: 24px; border: none;}
+.faq_expand.collapsed { background-position: 0 -28px; }
+.faq_question div { margin-bottom: 15px; }
+.faq_question div.expanded  { height: auto; display: block; }
+.no-script .faq_question div { display: block; }
+
+.faq_question p { margin-bottom: 10px;}
+
+
+
+
+
