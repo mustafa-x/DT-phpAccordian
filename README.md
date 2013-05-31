@@ -1,7 +1,7 @@
 #DT-phpAccordian
 ##A really simple Accordion with php, json & jQuery
 
-This little project shows you how to load in JSON files with php and create a simple accordian with jQuery. This project, written in the style of an FAQ loads in two seperate files, questions.json and answers.json. You could do this with the one file but I like to be awkward. 
+This little project shows you how to load in JSON files with php and create a simple accordian with jQuery. Written in the style of an FAQ, we load in two seperate files, questions.json and answers.json. You could do this with the one file but I like to be awkward. 
 
 The PHP directory contains all files for this project, The static directory is the accordian on its on with HTML.
 
